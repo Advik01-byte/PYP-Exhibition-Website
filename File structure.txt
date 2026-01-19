@@ -1,0 +1,72 @@
+PYP Exhibition Website/
+┣ Currency-Clickers-Game/
+  ┣ Game.css
+  ┣ Game.html
+  ┗ Game.js
+┣ images/
+  ┣ Advik-photo.jpeg
+  ┣ Apple.png
+  ┣ Atharv-photo.jpg
+  ┣ Kabir-photo.jpg
+  ┣ money-note.png
+  ┗ PYP-Exhibition-Group-Logo.png
+┣ Quiz/
+  ┣ Easy/
+    ┣ scripts/
+      ┣ Answers.js
+      ┣ Question1.js
+      ┣ Question2.js
+      ┣ Question3.js
+      ┣ Question4.js
+      ┗ Question5.js
+    ┣ Answers.css
+    ┣ Answers.html
+    ┣ Easy.css
+    ┣ Question1.html
+    ┣ Question2.html
+    ┣ Question3.html
+    ┣ Question4.html
+    ┗ Question5.html
+  ┣ Hard/
+    ┣ scripts/
+      ┣ Answers.js
+      ┣ Question1.js
+      ┣ Question2.js
+      ┣ Question3.js
+      ┣ Question4.js
+      ┗ Question5.js
+    ┣ Answers.css
+    ┣ Answers.html
+    ┣ Hard.css
+    ┣ Question1.html
+    ┣ Question2.html
+    ┣ Question3.html
+    ┣ Question4.html
+    ┗ Question5.html
+  ┣ Medium/
+    ┣ scripts/
+      ┣ Answers.js
+      ┣ Question1.js
+      ┣ Question2.js
+      ┣ Question3.js
+      ┣ Question4.js
+      ┗ Question5.js
+    ┣ Answers.css
+    ┣ Answers.html
+    ┣ Medium.css
+    ┣ Question1.html
+    ┣ Question2.html
+    ┣ Question3.html
+    ┣ Question4.html
+    ┗ Question5.html
+  ┣ Quiz.css
+  ┗ Quiz.html
+┣ styles/
+  ┣ About.css
+  ┗ main.css
+┣ .gitignore
+┣ About.html
+┣ "File structure.txt"
+┣ index.html
+┣ Information.txt
+┗ README.md
