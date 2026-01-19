@@ -1,0 +1,29 @@
+let score = parseInt(localStorage.getItem('quizScore'));
+
+document.querySelector('.next-question-button').addEventListener('click', () => {
+  const input = document.querySelector('.question-input').value.toLowerCase();
+
+  if (input === '') {
+    alert('Please type a letter');
+    return;
+  }
+
+  const validOptions = ['a', 'b', 'c', 'd'];
+
+  if (!validOptions.includes(input)) {
+    alert('Please type either a, b, c or d');
+    return;
+  }
+
+  if (input === 'a') {
+    score += 20;
+    localStorage.setItem('quizScore', score);
+    localStorage.setItem('Question3Letter', input);
+  }
+
+  if (input !== 'a') {
+    localStorage.setItem('Question3Letter', input);
+  }
+
+  location.replace('Question4.html');
+});
