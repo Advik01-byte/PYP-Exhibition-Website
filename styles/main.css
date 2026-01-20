@@ -173,5 +173,6 @@ footer::before {
 
 .scroll {
   color: white !important;
-  text-decoration: none !important;
+  text-decoration: none;
 }
+
