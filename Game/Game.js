@@ -27,8 +27,8 @@ function clickHouse(i) {
 }
 
 function activateAI() {
-  if (credits >= 60 && !aiActive && gameActive) {
-    credits -= 60;
+  if (credits >= 110 && !aiActive && gameActive) {
+    credits -= 110;
     aiActive = true;
     let timeLeft = 7000;
     
@@ -95,4 +95,5 @@ function endGame(m) {
   gameActive = false;
   document.getElementById('overlay').style.display = 'flex';
   document.getElementById('over-msg').innerText = m;
+
 }
