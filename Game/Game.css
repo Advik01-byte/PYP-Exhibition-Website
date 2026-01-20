@@ -1,0 +1,118 @@
+body { 
+  font-family: 'Segoe UI', sans-serif; 
+  text-align: center;
+   background: #020617; 
+   color: white; margin: 0; 
+   padding: 20px; 
+   user-select: none;
+}
+.header {
+  display: flex; 
+  justify-content: space-around; 
+  background: #1e293b; padding: 15px; 
+  border-radius: 12px; margin-bottom: 20px; 
+  border: 2px solid #334155;
+}
+#grid {
+  display: grid; 
+  grid-template-columns: repeat(3, 100px); 
+  gap: 15px; 
+  justify-content: center;
+}
+.house {
+  width: 100px; 
+  height: 100px; 
+  background: #1e293b; 
+  border-radius: 12px; 
+  cursor: pointer; 
+  display: flex;
+  align-items: center; 
+  justify-content: center; 
+  font-size: 2.5em; 
+  border: 4px solid #334155;
+  transition: all 0.1s;
+}
+
+.powered {
+  background: #facc15;
+  border-color: #fde047; 
+  box-shadow: 0 0 15px #ca8a04;
+}
+.off {
+  background: #1e293b; 
+  border-color: #334155;
+}
+.leak {
+  background: #450a0a; 
+  border-color: #ef4444; 
+  animation: shake 0.2s infinite;
+}
+.ai-mode {
+  background: #064e3b !important; 
+  border-color: #22c55e !important; 
+  box-shadow: 0 0 25px #22c55e !important;
+}
+
+@keyframes shake {
+  0% {
+    transform: rotate(1deg); 
+  }
+  
+  100% {
+    transform: rotate(-1deg);
+  }
+}
+
+#ai-btn {
+  margin-top: 30px; 
+  padding: 15px 30px; 
+  font-size: 18px; 
+  border-radius: 50px; 
+  border: 2px solid #3b82f6; 
+  background: #1e293b; 
+  color: #3b82f6; 
+  cursor: pointer; 
+  font-weight: bold; 
+  transition: 0.3s;
+}
+.can-afford {
+  background: #3b82f6 !important; 
+  color: white !important; 
+  box-shadow: 0 0 15px #3b82f6;
+}
+#ai-btn:disabled {
+  opacity: 0.5; 
+  cursor: not-allowed;
+}
+
+#timer-box {
+  width: 330px; 
+  height: 10px; 
+  background: #334155;
+  margin: 15px auto; 
+  border-radius: 5px; 
+  overflow: hidden;
+}
+#timer-fill {
+  width: 0%; 
+  height: 100%; 
+  background: #22c55e; 
+  transition: width 0.1s linear;
+}
+
+#overlay {
+  display: none; 
+  position: fixed; 
+  top: 0; 
+  left: 0; 
+  width: 100%; 
+  height: 100%; 
+  background: rgba(0,0,0,0.95); 
+  z-index: 100; 
+  flex-direction: column; 
+  align-items: center; 
+  justify-content: center;
+}
+.danger {
+  color: #ef4444;
+}

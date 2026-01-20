@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Smart City: Energy Crisis</title>
+  <link rel="stylesheet" href="Game.css">
+</head>
+<body>
+
+  <div id="overlay">
+    <h1 id="over-msg">CITY OFFLINE</h1>
+    <button onclick="location.reload()" style="padding: 15px 30px; font-size: 20px; border-radius: 10px; cursor: pointer;">REBOOT SYSTEM</button>
+  </div>
+
+  <h1>AI Grid Manager</h1>
+  <div class="header">
+    <div>💰 Credits: <span id="credits">100</span></div>
+    <div>🌡️ Grid Heat: <span id="heat">0</span>%</div>
+  </div>
+
+  <div id="grid"></div>
+
+  <button id="ai-btn" onclick="activateAI()">ACTIVATE AI (Cost: 60)</button>
+  <div id="timer-box"><div id="timer-fill"></div></div>
+  <p id="msg">Fix red Leaks ⚠️ to save money. Click houses to restore power.</p>
+
+  <script src="Game.js">
+    
+  </script>
+</body>
+</html>
