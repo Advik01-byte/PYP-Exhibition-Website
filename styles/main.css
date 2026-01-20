@@ -1,6 +1,9 @@
 * {
   box-sizing: border-box;
 }
+html {
+  scroll-behaviour: smooth;
+}
 body {
   margin: 0;
   font-family: 'Inter', sans-serif;
@@ -164,4 +167,9 @@ footer::before {
   .inquiry-grid { grid-template-columns: 1fr; }
   .hero-image { width: 150px; height: 150px; }
   .hero-content h1 { font-size: 2.5rem; }
+}
+
+.scroll:hover {
+  cursor: pointer;
+  text-decoration: underline;
 }
