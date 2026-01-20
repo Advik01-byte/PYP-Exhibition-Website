@@ -173,3 +173,8 @@ footer::before {
   cursor: pointer;
   text-decoration: underline;
 }
+
+.scroll {
+  color: white !important;
+  text-decoration: none !important;
+}
