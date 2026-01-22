@@ -165,14 +165,12 @@ footer::before {
   .hero-image { width: 150px; height: 150px; }
   .hero-content h1 { font-size: 2.5rem; }
 }
-
-.scroll:hover {
-  cursor: pointer;
-  text-decoration: underline;
-}
-
-.scroll {
-  color: white !important;
+.scroll a {
+  color: white;
   text-decoration: none;
 }
 
+.scroll a:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
