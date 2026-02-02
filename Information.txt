@@ -1,18 +1,11 @@
 Suggested Central Idea: Economic systems and currencies influence global connections and sustainability.
 
 Our explanation in the about page: 
-  -> Advik — Lead Web Developer & Designer: He took full responsibility for the digital side of their project.
-He designed and coded this entire website from scratch to serve as their group's digital hub.
-To him, coding is a powerful way to express complex ideas and share them with a global audience.
+  -> Advik — Web Developer: I came up with the central idea and other key concepts for our project. I designed and built our exhibition website to showcase our work online. I also handled the cutting work, creating shaped pieces like clouds and other cut-outs, and helped arrange materials on our display board. I created posters in different languages including English, Hindi, and Spanish.
+  -> Atharv — Lead Writer: Atharv brought our ideas to life by writing all the content in his distinctive big, bold lettering style. He carefully wrote out the central idea, lines of inquiry, and other important text, making sure everything is clear, easy to read, and stands out on our display board. He also made posters in different languages including English, Hindi, and Spanish.
+  -> Kabir — Designer: Kabir added color and visual appeal to our exhibition by outlining and decorating the text and materials. He created beautiful, vibrant outlines for our central idea and other elements, and worked closely with me to plan how to arrange everything on our display board. He contributed posters in different languages including English, Hindi, and Spanish.
 
-  -> Atharv — Design & Innovation Lead: Atharv is the creative mind behind our physical representations. He took charge of brainstorming and designing the models for our   project, ensuring that our ideas were turned into 3D realities. His ability to visualize complex concepts helped our group bring our central idea to life.
-
-  -> Kabir — Visual Communications Expert: Kabir is responsible for the visual storytelling of our exhibition. He designed and created two detailed posters that highlight our research and key findings. Kabir’s work ensures that our audience can easily understand our message through clear and engaging visuals.
-
-Suggested LOI (Lines of Inquiry):
-  -> The different types of economic systems and their characteristics.
-
-  -> The role of money and trade in connecting countries and communities.
-
-
-  -> How economic choices impact environmental and social sustainability.
+Our LOI (Lines of Inquiry):
+	-> Causation: Overconsumption of resources and its impact.
+  -> Function: How technology can grow economies.
+  -> Perspective: How lack of technology limits opportunities.
