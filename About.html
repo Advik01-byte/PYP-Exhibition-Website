@@ -63,9 +63,9 @@
     <script>
   		const detailsElement = document.querySelectorAll('.person-details');
       detailsElement.forEach(element => {
-        detailsElement.addEventListener('toggle', (event) => {
-        	if (detailsElement.open) {
-          	detailsElement.scrollIntoView({
+        element.addEventListener('toggle', (event) => {
+        	if (event.target.open) {
+          	event.target.scrollIntoView({
             	behavior: 'smooth'
           	});
         	}
@@ -74,4 +74,5 @@
       
     </script>
   </body>
+
 </html>
