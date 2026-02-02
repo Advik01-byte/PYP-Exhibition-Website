@@ -63,7 +63,7 @@ function refreshVisuals() {
   document.getElementById('heat').className = heat > 70 ? 'danger' : '';
   
   const btn = document.getElementById('ai-btn');
-  if (credits >= 60 && !aiActive) btn.classList.add('can-afford');
+  if (credits >= 110 && !aiActive) btn.classList.add('can-afford');
   else btn.classList.remove('can-afford');
 }
 
@@ -97,3 +97,4 @@ function endGame(m) {
   document.getElementById('over-msg').innerText = m;
 
 }
+
