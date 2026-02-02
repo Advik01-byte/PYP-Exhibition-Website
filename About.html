@@ -59,7 +59,17 @@
         </div>
       </div>
     </main>
+    
+    <script>
+  		const detailsElement = document.querySelector('.person-details');
+      
+      detailsElement.addEventListener('toggle', (event)=> {
+        if (detailsElement.open) {
+          detailsElement.scrollIntoView({
+            behavior: 'smooth'
+          });
+        }
+      })
+    </script>
   </body>
-
 </html>
-
